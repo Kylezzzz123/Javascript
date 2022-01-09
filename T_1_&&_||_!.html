@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // && == and
+        console.log(3 > 5 && 3 > 2); // false
+        console.log(3 < 5 && 3 > 2); // true
+        console.log(123 && 456) // 456 (true then true=456)
+        console.log(0 && 456) // 0 (false then true is false=0; true is 1, false is 0)
+        console.log('' && 0 && 456)  //    (empty)
+        // || == or 
+        console.log(3 > 5 || 3 > 2); // true
+        console.log(3 < 5 || 3 < 2); // false
+        console.log(123 || 456) // 123
+        console.log(0 || 456 || 456+123) // 456
+        // ! is not
+        console.log(!ture) // false
+        
+
+        // practice
+
+        var num = 0;
+        console.log(123 || num++); // 123
+        console.log(num); // 0 
+
+
+        var num4 = 10;
+        num4 += 5 // num4 = num4 + 5
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>
